@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+}
+
+body {
+  color: bisque;
+}
+
+.header {
+  width: 100%;
+  background: transparent;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 10px;
+  border-radius: 10px;
+  position: fixed;
+  z-index: 100;
+}
+
+.logo {
+  position: relative;
+  font-size: 25;
+  text-decoration: none;
+  font-weight: 600;
+  color: darkgrey;
+  cursor: default;
+  opacity: 0;
+  animation: slideRight Is ease forwards;
+}
+
+.navbar a {
+  display: inline-block;
+  font-size: 15px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  margin-left: 35px;
+  transition: 5s;
+}
+
+.navbar a:hover {
+  color: bisque;
+}
+
+.home {
+  position: relative;
+  width: 100;
+  justify-content: space-between;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  background-color: black;
+  padding: 70px 10px 0;
+}
+
+.content {
+  max-width: 600px;
+}
+
+.content h3 {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.content h1 {
+  font-size: 80px;
+  font-weight: 700;
+  margin: -3px 0;
+  color: transparent;
+  -webkit-text-stroke: 1px #fff;
+  background: url(assets/back.jpg);
+  -webkit-background-clip: text;
+  background-position: 0 0;
+  animation: back 20s linear infinite;
+}
+
+@keyframes back {
+  100% {
+    background-position: 200px 0;
+  }
+}
+
+.content p {
+  font-size: 20px;
+}
+
+.social {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 40px;
+  height: 40px;
+  background: transparent;
+  border: 2px solid #40bb82;
+  border-radius: 20px;
+  color: #40bb82;
+  text-decoration: none;
+  margin: 30px 15px 10px;
+}
+
+.social a:hover {
+  background: #40bb82;
+  color: black;
+  box-shadow: 0 0 15px #9db2bf;
+}
+
+.btn-box {
+  display: inline block;
+  padding: 12px 20px;
+  background: #40bb82;
+  position: absolute;
+  bottom: 13%;
+  left: 12%;
+  border-radius: 30px;
+  font-size: 16px;
+  color: black;
+  letter-spacing: 1px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.btn-box:hover {
+  box-shadow: 0 0 5px #9db2bf, 0 0 25px #9db2bf, 0 0 50px #9db2bf,
+    0 0 100px #9db2bf, 0 0 200px #9db2bf;
+}
+
+.image-container {
+  position: fixed;
+  top: 28%;
+  right: 0;
+  width: 500px;
+  height: 50px;
+  z-index: 500px;
+}
