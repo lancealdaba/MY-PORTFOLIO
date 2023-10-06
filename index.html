@@ -7,37 +7,51 @@
     <title>Pook Sapot</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="mediaqueries.css" />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
   </head>
   <body>
 
     </div>
-    <nav id="desktop-nav">
-      <div class="logo">Lancelot</div>
-      <div>
-        <ul class="nav-links">
-          <li><a href="#about">About</a></li>
-          <li><a href="#experience">Experience</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </div>
-    </nav>
-    <nav id = "hamburger-nav">
-      <div class="logo">Lancelot</div>
-      <div class="hamburger-menu">
-        <div class="hamburger-icons" onclick="toggleMenu()">
-          <span></span>
-          <span></span>
-          <span></span>
+    <nav class="nav">
+        <div class="#">Lancelot</div>
+        <div class="mid-nav">
+          <ul>
+            <a href="#" target="_blank">
+              <li>Home</li>
+            </a>
+            <a href="#" target="_blank">
+              <li>About</li>
+            </a>
+            <a href="#" target="_blank">
+              <li>Experience</li>
+            </a>
+            <a href="#" target="_blank">
+              <li>Contact</li>
+            </a>
+          </ul>
         </div>
-        <div class="menu-links">
-          <li><a href="#about" onclick="toggleMenu()"">About</a></li>
-          <li><a href="#experience" onclick="toggleMenu()"">Experience</a></li>
-          <li><a href="#projects" onclick="toggleMenu()"">Projects</a></li>
-          <li><a href="#contact" onclick="toggleMenu()"">Contact</a></li>
+        <div class="social">
+          <a href="https://www.facebook.com/adegamiisou" target="_blank"
+            ><ion-icon name="logo-facebook"></ion-icon>
+          </a>
+          <a href="https://www.instagram.com/adegamiiisou/">
+            <ion-icon name="logo-instagram"></ion-icon>
+          </a>
+          <a href="https://github.com/lancealdaba" target="_blank">
+            <ion-icon name="logo-github"></ion-icon>
+          </a>
+          <a href="https://www.twitter.com/@adegamiisou" target="_blank"
+            ><ion-icon name="logo-twitter"></ion-icon>
+          </a>
         </div>
-      </div>
-    </nav>
+      </nav>
     <section id="profile">
       <div class="section__pic-container">
         <img src="./assets/pic2.jpeg" 
@@ -53,21 +67,8 @@
           <button 
             class="btn btn-color-2"
             onclick="window.open('./assets/CURRICULUM VITAE.pdf')">
-            Download CV
+            CV
           </button>   
-        </div>
-         <div id="socials-container">
-          <img
-            src="./assets/instagram.png"
-            alt="My Instagram Profile"
-            class="icon"
-            onclick="location.href='https://www.instagram.com/adegamiiisou/'"/>
-          <img
-            src="./assets/github.png"
-            alt="My Github Profile"
-            class="icon"
-            onclick="location.href='https://github.com/'" />
-         </div>
     </section>
     <section id="About">
       <p class="section__text__p1">Get to Know More</p>

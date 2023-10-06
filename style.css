@@ -8,6 +8,7 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  color: #ffffff;
   width: 100%;
   height: 100vh;
   background-image: url("/assets/back.jpg");
@@ -16,61 +17,54 @@ body {
   background-attachment: fixed;
 }
 
-html {
-  scroll-behavior: smooth;
-}
-
-p,
-h1 {
-  color: rgb(255, 255, 255);
-}
-
-/* transition */
-
-a,
-.btn {
-  transition: all 300ms ease;
-}
-
-/* Desktop Navigation */
-
-nav,
-.nav-links {
+.nav {
   display: flex;
-}
-
-nav {
-  justify-content: space-around;
+  justify-content: space-between;
+  padding: 1rem 2rem;
   align-items: center;
-  height: 17vh;
+  max-width: 100vw;
+  flex-wrap: wrap;
 }
 
-.nav-links {
-  gap: 4rem;
-  list-style: none;
-  font-size: 1.5rem;
+.mid-nav {
+  padding: 0 0.5rem;
 }
 
-a {
-  color: rgb(255, 255, 255);
+.mid-nav ul {
+  display: flex;
+  gap: 2.5rem;
+}
+
+.mid-nav ul a {
+  list-style-type: none;
   text-decoration: none;
-  text-decoration-color: white;
-}
-
-a:hover {
-  color: rgb(45, 219, 205);
-  text-decoration: underline;
-  text-underline-offset: 1rem;
-  text-decoration-color: rgb(255, 255, 255);
+  color: inherit;
 }
 
 .logo {
-  font-size: 2.5rem;
-  color: white;
+  height: 50px;
+  aspect-ratio: 1/1;
 }
 
-.logo:hover {
-  cursor: default;
+.social {
+  font-size: 1.25rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.social > * {
+  transform: all 0.3s;
+  color: #ffffff;
+}
+
+.social:hover {
+  opacity: 0.7;
+}
+
+@media (max-width: 613px) {
+  .social {
+    margin: 0 auto;
+  }
 }
 
 /* Hamburger-nav and Menu */
@@ -236,13 +230,13 @@ section {
   font-weight: 600;
   transition: all 300ms ease;
   padding: 1rem;
-  width: 8rem;
+  width: 4rem;
   border-radius: 2rem;
 }
 
 .btn-color-1,
 .btn-color-2 {
-  border: rgb(53, 53, 53) 0.1rem solid;
+  border: rgb(255, 255, 255) 0.1rem solid;
 }
 
 .btn-color-1:hover,
@@ -262,6 +256,7 @@ section {
 
 .btn-color-2 {
   background: none;
+  color: white;
 }
 
 .btn-color-2:hover {
