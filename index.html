@@ -17,23 +17,20 @@
     ></script>
   </head>
   <body>
-
-    </div>
+    <header>
     <nav class="nav">
-        <div class="#">Lancelot</div>
+        <a href="#" class="logo">CYRAX</a>
         <div class="mid-nav">
           <ul>
-            <a href="#" target="_blank">
-              <li>Home</li>
+            <li><a href="#Home">Home</li>
             </a>
-            <a href="#" target="_blank">
-              <li>About</li>
+            <li><a href="#About">About</li>
             </a>
-            <a href="#" target="_blank">
-              <li>Experience</li>
+            <li><a href="#Experience">Experience</li>
             </a>
-            <a href="#" target="_blank">
-              <li>Contact</li>
+            <li><a href="#Projects">Projects</li>
+            </a>
+            <li><a href="#Contact">Contact</li>
             </a>
           </ul>
         </div>
@@ -52,6 +49,23 @@
           </a>
         </div>
       </nav>
+    </header>
+      
+       <nav id="hamburger-nav">
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#" onclick="toggleMenu()">Home</a></li>
+          <li><a href="#" onclick="toggleMenu()">About</a></li>
+          <li><a href="#" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
     <section id="profile">
       <div class="section__pic-container">
         <img src="./assets/pic2.jpeg" 
@@ -128,7 +142,7 @@
         onclick="location.href = './#experience'"
       />
     </section>
-    <section id="experience">
+    <section id="Experience">
       <p class="section__text__p1">Explore My</p>
       <h1 class="title">Experience</h1>
       <div class="experience-details-container">
@@ -262,7 +276,7 @@
         onclick="location.href = './#projects'"
       />
     </section>
-    <section id="projects">
+    <section id="Projects">
       <p class="section__text__p1">Browse My Recent</p>
       <h1 class="title">Projects</h1>
       <div class="experience-details-container">
@@ -348,7 +362,7 @@
         onclick="location.href = './#contact'"
       />
     </section>
-    <section id="contact">
+    <section id="Contact">
       <p class="section__text__p1">Get in Touch</p>
       <h1 class="title">Contact Me</h1>
       <div class="contact-info-upper-container">
@@ -366,9 +380,9 @@
       <nav>
         <div class="nav-links-container">
           <ul class="nav-links">
-            <li><a href="#about">About</a></li>
-            <li><a href="#experience">Experience</a></li>
-            <li><a href="#projects">Projects</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Experience">Experience</a></li>
+            <li><a href="#Projects">Projects</a></li>
           </ul>
         </div>
       </nav>
