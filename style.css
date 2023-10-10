@@ -228,11 +228,16 @@ section {
   font-weight: 700;
   margin: -3px 0;
   color: transparent;
-  -webkit-text-stroke: 1px #07422e;
+  -webkit-text-stroke: 1px #000000;
   background: url(assets/blackback.png);
   -webkit-background-clip: text;
+  animation: blackback 20s linear infinite;
 }
-
+@keyframes blackback {
+  100% {
+    background-position: 2000px 0;
+  }
+}
 .title {
   font-size: 3rem;
   text-align: center;
