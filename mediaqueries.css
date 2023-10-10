@@ -1,16 +1,5 @@
-@media screen and (max-width: 1400px) {
-  #profile {
-    height: 83vh;
-    margin-bottom: 6rem;
-  }
-
-  .about-containers {
-    flex-wrap: wrap;
-  }
-}
-
 @media screen and (max-width: 1200px) {
-  #nav {
+  #desktop-nav {
     display: none;
   }
 
@@ -18,8 +7,8 @@
     display: flex;
   }
 
-  #Experience,
-  .Experience-details-container {
+  #experience,
+  .experience-details-container {
     margin-top: 2rem;
   }
   #profile,
@@ -41,13 +30,13 @@
     height: 275px;
     margin: 0 auto 2rem;
   }
-  .About-containers {
+  .about-containers {
     margin-top: 0;
   }
 }
 
 @media screen and (max-width: 600px) {
-  #Contact,
+  #contact,
   footer {
     height: 40vh;
   }
@@ -66,22 +55,22 @@
     margin-bottom: 2rem;
   }
 
-  .About-containers,
-  .Contact-info-upper-container,
+  .about-containers,
+  .contact-info-upper-container,
   .btn-container {
     flex-wrap: wrap;
   }
 
-  .Contact-info-container {
+  .contact-info-container {
     margin: 0;
   }
 
-  .Contact-info-container p,
+  .contact-info-container p,
   .nav-links li a {
     font-size: 1rem;
   }
 
-  .Experience-sub-title {
+  .experience-sub-title {
     font-size: 1.5rem;
   }
 
