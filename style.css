@@ -329,6 +329,7 @@ section {
 
 #about {
   position: relative;
+  height: 100vh;
 }
 
 .about-container {
@@ -354,7 +355,7 @@ section {
 .details-container {
   padding: 1.5rem;
   flex: 1;
-  background: white;
+  background: rgb(53, 97, 64);
   border-radius: 2rem;
   border: rgb(53, 53, 53) 0.1rem solid;
   border-color: rgb(163, 163, 163);
@@ -382,10 +383,16 @@ section {
 
 #experience {
   position: relative;
+  height: 100vh;
+}
+
+.details-container {
+  border-color: rgb(0, 0, 0);
+  background: rgb(184, 184, 184);
 }
 
 .experience-sub-title {
-  color: rgb(85, 85, 85);
+  color: rgb(31, 16, 16);
   font-weight: 600;
   font-size: 1.75rem;
   margin-bottom: 2rem;
@@ -395,7 +402,7 @@ section {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  padding: 40px;
+  padding: 80px;
 }
 
 .article-container {
@@ -422,11 +429,12 @@ article .icon {
 
 #project {
   position: relative;
+  height: 100vh;
 }
 
 .color-container {
-  border-color: rgb(163, 163, 163);
-  background: rgb(250, 250, 250);
+  border-color: rgb(0, 0, 0);
+  background: rgb(184, 184, 184);
 }
 
 .project-img {
@@ -451,7 +459,7 @@ article .icon {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  height: 70vh;
+  height: 75vh;
 }
 
 .contact-info-upper-container {
