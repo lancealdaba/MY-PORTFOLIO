@@ -17,10 +17,11 @@
     ></script>
   </head>
   <body>
+    <section id="home">
     <nav id="desktop-nav">
         <div class="logo">CYRAX</div>
         <div>
-          <ul class="nav-links">
+          <ul class="nav-links"> 
             <li><a href="#about">About</a></li>          
             <li><a href="#experience">Experience</a></li>            
             <li><a href="#projects">Projects</a></li>          
@@ -41,7 +42,7 @@
             ><ion-icon name="logo-twitter"></ion-icon>
           </a>
         </div>
-      </nav>      
+      </nav>  
        <nav id="hamburger-nav">
       <div class="logo">CYRAX</div>
       <div class="hamburger-menu">
@@ -51,6 +52,7 @@
           <span></span>
         </div>
         <div class="menu-links">
+          <li><a href="#home" onclick="toggleMenu()">Home</a></li>
           <li><a href="#about" onclick="toggleMenu()">About</a></li>
           <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
           <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
@@ -58,7 +60,7 @@
         </div>
       </div>
     </nav>
-    <section id="profile">
+      <section id="profile">
       <div class="section__pic-container">
         <img src="./assets/pic2.png" 
             alt="Profile Picture"
@@ -74,7 +76,8 @@
             class="btn btn-color-2"
             onclick="window.open('./assets/CURRICULUM VITAE.pdf')">
             MY CV
-          </button>   
+          </button>
+      </section>   
     </section>
     <section id="about">
       <p class="section__text__p1">Get to Know More</p>
@@ -106,8 +109,8 @@
               />
               <h3>Education</h3>
               <p>
-                B.S. in Computing major in Information Systems <br />
-                Master in Information Technology
+                3rd year college in TUP Manila <br />
+                B.S in Information Technology
               </p>
             </div>
           </div>
@@ -372,13 +375,14 @@
       <nav>
         <div class="nav-links-container">
           <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#experience">Experience</a></li>
             <li><a href="#projects">Projects</a></li>
           </ul>
         </div>
       </nav>
-      <p>Copyright &#169; 2023 Lance Aldaba. All Rights Reserved.</p>
+      <p>Copyright &#169; 2023 Lancelot Aldaba. All Rights Reserved.</p>
     </footer>
     </section>
     <script src="script.js"></script>
