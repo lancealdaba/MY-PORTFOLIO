@@ -46,8 +46,8 @@ nav,
 nav {
   justify-content: space-around;
   align-items: center;
-  height: 17vh;
-  gap: 20rem;
+  height: 15vh;
+  gap: 15rem;
 }
 
 .nav-links {
@@ -182,7 +182,7 @@ a:hover {
 
 section {
   padding-top: 4vh;
-  height: 100vh;
+  height: 96vh;
   margin: 0 10rem;
   box-sizing: border-box;
   min-height: fit-content;
@@ -197,8 +197,8 @@ section {
 #profile {
   display: flex;
   justify-content: center;
-  gap: 10rem;
-  padding-bottom: 350px;
+  gap: 4rem;
+  height: 65vh;
 }
 
 .section__pic-container {
@@ -211,7 +211,6 @@ section {
 .section__text {
   align-self: center;
   text-align: center;
-  height: 20vh;
 }
 
 .section__text_p {
@@ -228,7 +227,7 @@ section {
 }
 
 .section__text h1 {
-  font-size: 60px;
+  font-size: 3rem;
   font-weight: 500;
   margin: 5px 0;
   background: conic-gradient(black, crimson, coral, rgb(236, 56, 56), black);
@@ -329,7 +328,6 @@ section {
 
 #about {
   position: relative;
-  height: 100vh;
 }
 
 .about-container {
@@ -383,7 +381,6 @@ section {
 
 #experience {
   position: relative;
-  height: 100vh;
 }
 
 .details-container {
@@ -459,7 +456,7 @@ article .icon {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  height: 75vh;
+  height: 70vh;
 }
 
 .contact-info-upper-container {
